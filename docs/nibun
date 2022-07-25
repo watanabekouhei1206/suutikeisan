@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Main{
-    nibun();
+    nibunhou();
     public static void main(String[] args){
         ArrayList<Integer> nibun = new ArrayList<>();
     }

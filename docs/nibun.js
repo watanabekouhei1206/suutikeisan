@@ -1,17 +1,9 @@
-import java.util.ArrayList;
-
-public class Main{
-    nibunhou();
-    public static void main(String[] args){
-        ArrayList<Integer> nibun = new ArrayList<>();
-    }
-    const EPS = 0.0001; // constは定数の定義
+const EPS = 0.0001; // constは定数の定義
 
 /**
  * 2分法による根の計算
  */
-function nibun() {
-    const EPS = 0.0001; 
+function main() {
   let a = 0.0,
     b = 1.0; // 初期値
 
@@ -49,5 +41,4 @@ function func_y(x) {
   return Math.pow(x, 3.0) + x - 1.0;
 }
 
-
-}
+main();

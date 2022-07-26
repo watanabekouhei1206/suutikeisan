@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="ja-JP">
+  <head>
+    <meta charset="UTF-8">
+    <title>Montecarlo Method</title>
+    <link rel="stylesheet" href="graph.css">
+    <script src="./docs/nibun.js"></script>
+    <script src="./docs/newton.js"></script>
+    <script src="./docs/graph.js"></script>
+   
+  </head>
+  <body>
+    <div id="contents">
+      <div id="panel">
+        <div>
+          <button type="button" id="start" class="normal">start</button>
+          <button type="button" id="clear" class="normal">clear</button>
+        </div>
+        <div>
+          <p>EPS</p>
+          <button type="button" id="b02" class="size">0.001</button>
+          <button type="button" id="b03" class="size">0.0001</button>
+          <button type="button" id="b04" class="size">0.00001</button>
+          <button type="button" id="b05" class="size">0.000001</button>
+        </div>
+        <div>
+          
+        <button type="button" id="start" class="normal">次へ</button>
+        <button type="button" id="clear" class="normal">戻る</button>
+        
+        </div>
+        <p id="theory"></p>
+        <p id="answer"></p>
+      </div>
+      <div id="main">
+        <div id="area1" class="area">
+          <p>　求めている式のグラフ</p>
+          <canvas class="myCanvas" id="graph1" width="460" height="460"></canvas>
+          <canvas class="myCanvas" id="graph1b" width="460" height="460"></canvas>
+        </div>
+        <p>計算回数</p>
+
+        <p>二分法の結果</p>
+
+
+        <p>ニュートン法の結果</p>
+
+
+      </div>
+    </div>
+  </body>
+</html>
